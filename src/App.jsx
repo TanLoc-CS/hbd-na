@@ -1,6 +1,3 @@
-import Sound from "react-sound";
-import Song from "./song.mp3";
-
 function App() {
 	return (
 		<>
@@ -26,7 +23,6 @@ function App() {
 					</div>
 				</div>
 			</div>
-			<Sound url={Song} playStatus="PLAYING" />
 		</>
 	);
 }
